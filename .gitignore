@@ -1,0 +1,9 @@
+.cache
+node_modules
+.config
+.bash_history 
+shrinkwrap.yaml
+.github
+datas.json
+pnpm-lock.yaml
+test.js
