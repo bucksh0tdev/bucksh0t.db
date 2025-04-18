@@ -23,9 +23,9 @@ class create {
             }
         }
 
-        const toJSON = (limit) => {
+        const toJSON = (limit = 0) => {
             setup();
-            const allData = this.all(limit);
+            const allData = this.all(limit, false);
             const json = {};
             for (const element of allData) {
                 json[element.ID] = element.data;
